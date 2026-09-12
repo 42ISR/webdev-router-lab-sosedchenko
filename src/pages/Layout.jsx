@@ -1,15 +1,15 @@
-import { Outlet } from "react-router-dom"
-import Header from "../components/Header"
+import { Outlet } from 'react-router-dom';
+import Header from '../components/Header.jsx';
 
 const Layout = () => {
-    return (
-        <>
-            <Header />
-            <div className="page-area">
-                <Outlet />
-            </div>
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <div className="page-area">
+        <Outlet />
+      </div>
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
